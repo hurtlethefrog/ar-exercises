@@ -10,4 +10,4 @@ puts "Exercise 7"
 puts "----------"
 
 name = gets.chomp
-store = Store.create(name: "#{name}", annual_revenue: -190000, mens_apparel: true, womens_apparel: false)
+store = Store.create(name: "#{name}", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
